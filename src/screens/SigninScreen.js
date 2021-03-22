@@ -31,7 +31,7 @@ const SigninScreen = (props) => {
         props.history.push('/admin')
         window.location.reload(true)
       } else if (response.data.role == 'verifier') {
-        props.history.push('https://distracted-tesla-73a056.netlify.app/verifier')
+        props.history.push('/verifier')
         window.location.reload(true)
       } else if (response.data.role == 'owner') {
         props.history.push('/owner')
