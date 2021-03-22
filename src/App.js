@@ -69,7 +69,7 @@ function App() {
               <Route path="/approvedProperties" component={ApprovedProperties} />
 
               {/* Verifier Screens */}
-              <Route path="https://distracted-tesla-73a056.netlify.app/verifier" component={VerifierHome} />
+              <Route path="/verifier" component={VerifierHome} />
               <Route path="/schedule" component={ScheduleAppointments} />
               <Route path="/pendings" component={PropertyVerification} />
               <Route path="/verifierAppointments" component={VerifierAppointments} />
