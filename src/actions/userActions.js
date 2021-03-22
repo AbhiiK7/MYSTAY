@@ -54,7 +54,7 @@ export const signup = (firstName, lastName, phone, email, password) => {
       email,
       password,
     }
-    const url = 'http://localhost:3000/api/signup'
+    const url = 'https://oap-mystay.herokuapp.com/api/signup'
     axios
       .post(url, body, header)
       .then((response) => {
@@ -87,7 +87,7 @@ export const signin = (email, password) => {
       email,
       password,
     }
-    const url = 'http://localhost:3000/api/signin'
+    const url = 'https://oap-mystay.herokuapp.com/api/signin'
     axios
       .post(url, body, header)
       .then((response) => {
@@ -123,7 +123,7 @@ export const reg = (firstName, lastName, phone, email, password) => {
       email,
       password,
     }
-    const url = 'http://localhost:3000/api/owner/signup'
+    const url = 'https://oap-mystay.herokuapp.com/api/owner/signup'
     axios
       .post(url, body, header)
       .then((response) => {
@@ -152,7 +152,7 @@ export const getUserProfile = () => {
       },
     }
 
-    const url = 'http://localhost:3000/api/getUserDetails'
+    const url = 'https://oap-mystay.herokuapp.com/api/getUserDetails'
     axios
       .get(url, header)
       .then((response) =>
@@ -196,7 +196,7 @@ export const addVerifier = (firstName,
       phone,
       password,
     }
-    const url = 'http://localhost:3000/api/admin/addverifier'
+    const url = 'https://oap-mystay.herokuapp.com/api/admin/addverifier'
     axios
       .post(url, body, header)
       .then((response) => {
@@ -226,7 +226,7 @@ export const getUserDetails = () => {
       },
     }
 
-    const url = 'http://localhost:3000/api/getAllOwner'
+    const url = 'https://oap-mystay.herokuapp.com/api/getAllOwner'
     axios
       .get(url, header)
       .then((response) =>
@@ -258,7 +258,7 @@ export const getVerifierDetails = () => {
       },
     }
 
-    const url = 'http://localhost:3000/api/getAllVerifiers'
+    const url = 'https://oap-mystay.herokuapp.com/api/getAllVerifiers'
     axios
       .get(url, header)
       .then((response) =>
@@ -297,7 +297,7 @@ export const addUserApointment = (property, appDate) => {
       appDate,
     }
     console.log(body)
-    const url = 'http://localhost:3000/api/user/appointOwner'
+    const url = 'https://oap-mystay.herokuapp.com/api/user/appointOwner'
     axios
       .post(url, body, header)
       .then((response) => {
@@ -327,7 +327,7 @@ export const getCustBookings = () => {
       },
     }
 
-    const url = 'http://localhost:3000/api/getCustomerBookings'
+    const url = 'https://oap-mystay.herokuapp.com/api/getCustomerBookings'
     axios
       .get(url, header)
       .then((response) => {
@@ -357,7 +357,7 @@ export const getCustAppointments = () => {
       },
     }
 
-    const url = 'http://localhost:3000/api/getAppointments'
+    const url = 'https://oap-mystay.herokuapp.com/api/getAppointments'
     axios
       .get(url, header)
       .then((response) => {
@@ -392,7 +392,7 @@ export const updateUserProfile = (firstName, lastName, phone) => {
         firstName, lastName, phone
       }
       console.log(body)
-      const url = 'http://localhost:3000/api/updateProfile'
+      const url = 'https://oap-mystay.herokuapp.com/api/updateProfile'
       axios
         .post(url, body, header)
         .then((response) => {

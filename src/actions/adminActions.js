@@ -16,7 +16,7 @@ export const approveProperty = (_id) => {
         _id,
       }
       console.log(body)
-      const url = 'http://localhost:3000/api/admin/authenticate'
+      const url = 'https://oap-mystay.herokuapp.com/api/admin/authenticate'
       axios
         .put(url, body, header)
         .then((response) => {

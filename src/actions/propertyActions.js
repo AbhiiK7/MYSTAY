@@ -54,7 +54,7 @@ export const addProperty = (
       security,
     }
 
-    const url = 'http://localhost:3000/api/addImages'
+    const url = 'https://oap-mystay.herokuapp.com/api/addImages'
     axios
       .post(url, body, header)
       .then((response) => {
@@ -83,7 +83,7 @@ export const properties = () => {
       },
     }
 
-    const url = 'http://localhost:3000/api/getProperties'
+    const url = 'https://oap-mystay.herokuapp.com/api/getProperties'
     axios
       .get(url, header)
       .then((response) => {
@@ -113,7 +113,7 @@ export const getAllProperty = () => {
       },
     }
 
-    const url = 'http://localhost:3000/api/getAllProperties'
+    const url = 'https://oap-mystay.herokuapp.com/api/getAllProperties'
     axios
       .get(url, header)
       .then((response) => {
@@ -142,7 +142,7 @@ export const getApprovedProperty = () => {
       },
     }
 
-    const url = 'http://localhost:3000/api/getApprovedProperties'
+    const url = 'https://oap-mystay.herokuapp.com/api/getApprovedProperties'
     axios
       .get(url, header)
       .then((response) => {
@@ -171,7 +171,7 @@ export const getVerifiedProperty = () => {
       },
     }
 
-    const url = 'http://localhost:3000/api/getVerifiedProperties'
+    const url = 'https://oap-mystay.herokuapp.com/api/getVerifiedProperties'
     axios
       .get(url, header)
       .then((response) => {
@@ -206,7 +206,7 @@ export const searchProperties = (city) => {
     }
     console.log('BODY:- ', body)
 
-    const url = 'http://localhost:3000/api/findPropertiesByCity'
+    const url = 'https://oap-mystay.herokuapp.com/api/findPropertiesByCity'
     axios
       .post(url, body, header)
       .then((response) => {
@@ -239,7 +239,7 @@ export const deleteProperties = (_id) => {
       _id,
     }
 
-    const url = 'http://localhost:3000/api/deleteproperty'
+    const url = 'https://oap-mystay.herokuapp.com/api/deleteproperty'
     axios
       .post(url, body, header)
       .then((response) => {

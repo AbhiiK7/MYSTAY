@@ -50,7 +50,7 @@ export const getNewPropCount = () => {
       },
     }
 
-    const url = 'http://localhost:3000/api/noOfUnverifiedProperties'
+    const url = 'https://oap-mystay.herokuapp.com/api/noOfUnverifiedProperties'
     axios
       .get(url, header)
       .then((response) => {
@@ -80,7 +80,7 @@ export const getVerAppCount = () => {
         },
       }
   
-      const url = 'http://localhost:3000/api/getAppointment'
+      const url = 'https://oap-mystay.herokuapp.com/api/getAppointment'
       axios
         .get(url, header)
         .then((response) => {
@@ -111,7 +111,7 @@ export const getVerAppCount = () => {
         },
       }
   
-      const url = 'http://localhost:3000/api/noOfOwnersProperties'
+      const url = 'https://oap-mystay.herokuapp.com/api/noOfOwnersProperties'
       axios
         .get(url, header)
         .then((response) => {
@@ -140,7 +140,7 @@ export const getVerAppCount = () => {
         },
       }
   
-      const url = 'http://localhost:3000/api/noOfOwnersApprovedProperties'
+      const url = 'https://oap-mystay.herokuapp.com/api/noOfOwnersApprovedProperties'
       axios
         .get(url, header)
         .then((response) => {
@@ -169,7 +169,7 @@ export const getVerAppCount = () => {
         },
       }
   
-      const url = 'http://localhost:3000/api/noOfOwnersRentedProperties'
+      const url = 'https://oap-mystay.herokuapp.com/api/noOfOwnersRentedProperties'
       axios
         .get(url, header)
         .then((response) => {
@@ -198,7 +198,7 @@ export const getVerAppCount = () => {
         },
       }
   
-      const url = 'http://localhost:3000/api/noOfOwnersAppointments'
+      const url = 'https://oap-mystay.herokuapp.com/api/noOfOwnersAppointments'
       axios
         .get(url, header)
         .then((response) => {
@@ -227,7 +227,7 @@ export const getVerAppCount = () => {
         },
       }
   
-      const url = 'http://localhost:3000/api/noOfOwnersBookings'
+      const url = 'https://oap-mystay.herokuapp.com/api/noOfOwnersBookings'
       axios
         .get(url, header)
         .then((response) => {
@@ -246,7 +246,7 @@ export const getVerAppCount = () => {
   }
 
 // OWNER
-//   http://localhost:3000/api/noOfOwnersBookings
+
 
 
 /* ADMIN */
@@ -261,7 +261,7 @@ export const getOwnerCount = () => {
       },
     }
 
-    const url = 'http://localhost:3000/api/noOfOwner'
+    const url = 'https://oap-mystay.herokuapp.com/api/noOfOwner'
     axios
       .get(url, header)
       .then((response) => {
@@ -291,7 +291,7 @@ export const getVerCount = () => {
       },
     }
 
-    const url = 'http://localhost:3000/api/noOfVerifier'
+    const url = 'https://oap-mystay.herokuapp.com/api/noOfVerifier'
     axios
       .get(url, header)
       .then((response) => {
@@ -321,7 +321,7 @@ export const getCustCount = () => {
       },
     }
 
-    const url = 'http://localhost:3000/api/noOfCustomer'
+    const url = 'https://oap-mystay.herokuapp.com/api/noOfCustomer'
     axios
       .get(url, header)
       .then((response) => {
@@ -351,7 +351,7 @@ export const getPropertyCount = () => {
       },
     }
 
-    const url = 'http://localhost:3000/api/noOfProperty'
+    const url = 'https://oap-mystay.herokuapp.com/api/noOfProperty'
     axios
       .get(url, header)
       .then((response) => {
@@ -381,7 +381,7 @@ export const getUnverifiedPropCount = () => {
       },
     }
 
-    const url = 'http://localhost:3000/api/noOfUnverifiedProperties'
+    const url = 'https://oap-mystay.herokuapp.com/api/noOfUnverifiedProperties'
     axios
       .get(url, header)
       .then((response) => {
@@ -411,7 +411,7 @@ export const getVerifiedPropCount = () => {
       },
     }
 
-    const url = 'http://localhost:3000/api/noOfVerifiedProperties'
+    const url = 'https://oap-mystay.herokuapp.com/api/noOfVerifiedProperties'
     axios
       .get(url, header)
       .then((response) => {
@@ -441,7 +441,7 @@ export const getApprovedPropCount = () => {
       },
     }
 
-    const url = 'http://localhost:3000/api/noOfApprovedProperty'
+    const url = 'https://oap-mystay.herokuapp.com/api/noOfApprovedProperty'
     axios
       .get(url, header)
       .then((response) => {

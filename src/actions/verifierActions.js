@@ -27,7 +27,7 @@ export const pendingProperties = () => {
       },
     }
 
-    const url = 'http://localhost:3000/api/unverifiedProp'
+    const url = 'https://oap-mystay.herokuapp.com/api/unverifiedProp'
     axios
       .get(url, header)
       .then((response) => {
@@ -64,7 +64,7 @@ export const addApointment = (propertyId, appDate) => {
       appDate,
     }
     console.log(body)
-    const url = 'http://localhost:3000/api/verifier/appointment'
+    const url = 'https://oap-mystay.herokuapp.com/api/verifier/appointment'
     axios
       .post(url, body, header)
       .then((response) => {
@@ -93,7 +93,7 @@ export const getAppointments = () => {
       },
     }
 
-    const url = 'http://localhost:3000/api/showappointment'
+    const url = 'https://oap-mystay.herokuapp.com/api/showappointment'
     axios
       .get(url, header)
       .then((response) => {
@@ -127,7 +127,7 @@ export const verifyProperty = (a_id, p_id) => {
       p_id,
     }
     console.log(body)
-    const url = 'http://localhost:3000/api/verifier/verify'
+    const url = 'https://oap-mystay.herokuapp.com/api/verifier/verify'
     axios
       .put(url, body, header)
       .then((response) => {
